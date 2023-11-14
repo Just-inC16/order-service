@@ -2,6 +2,9 @@ package com.tcs.orderservice.config;
 
 import org.springframework.data.crossstore.ChangeSetPersister.NotFoundException;
 
+import com.tcs.orderservice.exceptions.BadRequestException;
+import com.tcs.orderservice.exceptions.InternalServerError;
+
 import feign.Response;
 import feign.codec.ErrorDecoder;
 

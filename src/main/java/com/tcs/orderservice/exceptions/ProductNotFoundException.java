@@ -1,4 +1,4 @@
-package com.tcs.orderservice.config;
+package com.tcs.orderservice.exceptions;
 
 public class ProductNotFoundException extends Exception {
 	private String msg = "Product Not Found";

@@ -1,4 +1,4 @@
-package com.tcs.orderservice.config;
+package com.tcs.orderservice.exceptions;
 
 public class BadRequestException extends Exception {
 	private String msg = "Bad Request";

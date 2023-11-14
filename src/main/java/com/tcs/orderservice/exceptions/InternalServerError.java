@@ -1,4 +1,4 @@
-package com.tcs.orderservice.config;
+package com.tcs.orderservice.exceptions;
 
 public class InternalServerError extends Exception {
 	private String msg = "Internal Server Error";
